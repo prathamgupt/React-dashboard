@@ -1,0 +1,41 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; 
+    border: 1px solid #e9e4e4;
+    border-collapse: collapse;
+    border-radius: 2%; 
+    padding: 5%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2.5%;
+  }
+  
+  .score {
+    position: absolute;
+    left: 80%; 
+    top: 11%; 
+    color: blue;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 70%;
+    padding: 10%;
+  }
+  
+  .chart canvas {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .icon1 {
+    position: absolute;
+    top: 60%;
+  }
+  

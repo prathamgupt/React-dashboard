@@ -1,0 +1,217 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main1; }
+.item4 { grid-area: main2; }
+.item5 { grid-area: right1; }
+.item6 { grid-area: right2; }
+.item7 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main1 main1 main1 right1 right1'
+    'menu main2 main2 main2 right1 right1'
+    'menu footer footer footer right2 right2';
+  gap: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  font-size: 20px;
+}
+.item1{
+  border: 1px solid #e9e4e4; 
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.item2{
+  border: 1px solid #e9e4e4; 
+  border-top: 0px;
+  padding-left: 30px;
+  padding-top: 12px;
+  height: 1200px;
+  margin-right: 5%;
+}
+.item3{
+  margin-left: 3%;
+  margin-right: 275px;
+  margin-top: 50px;
+  height: 210px;
+}
+.item4{
+  position: absolute;
+  top:43%;
+  left:19%;
+  width: 56%;
+  margin-bottom: 50px;
+}
+.item6{
+  position: absolute;
+  left:76%;
+  top: 77%;
+}
+.item7{
+  position: absolute;
+  left:19%;
+  top:73%;
+}
+.item5{
+  position: absolute;
+  left:76%;
+  top: 16%;
+}
+.img1{
+  width: 10%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+  border: 1px solid #e9e4e4; 
+  border-collapse: collapse; 
+  border-radius: 10px; 
+}
+img{
+  height: 150px;
+  width: 175px;
+}
+.text{
+  font-size: 18px;
+}
+.d2{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+.update{
+  background-color: #174980;
+  color: white;
+  padding: 20px 35px; 
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.login-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #555;
+}
+
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-popup {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.form-input {
+  width: 250px; 
+  padding: 10px;
+  color: rgb(9, 9, 162);;
+  border: 1px solid rgb(9, 9, 162);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.button-container {
+  margin-top: 75px;
+  margin-left: 350px;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: rgb(9, 9, 162);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+}
+
+.cancel-button {
+  background-color: white;
+  color: rgb(9, 9, 162);
+  border: 1px solid rgb(9, 9, 162);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 30px;
+}
+
+.form{
+  background-color: white;
+  height: 430px;
+  width: 880px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.form-label-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  flex: 1;
+  margin-right: 10px; 
+}
+
+.form-input {
+  flex: 1;
+  margin-left: 200px;
+  margin-right: 20px; 
+}
+
+.lable-container{
+  margin-top: 60px;
+}
+
+.inside{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 245px;
+  left: 1300px;
+}

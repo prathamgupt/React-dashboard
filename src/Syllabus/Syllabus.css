@@ -1,0 +1,86 @@
+.html1 {
+  width: 200px;
+  background-color: lightblue;
+  border: 1px solid #e9e4e4;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.html2 {
+  width: 80%;
+  border: 7px solid blue;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.html4 {
+  width: 60%;
+  border: 7px solid orange;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.html6 {
+  width: 24%;
+  border: 7px solid red;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.html8 {
+  width: 88%;
+  border: 7px solid green;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.html3 {
+  width: 200px;
+  background-color: lightsalmon;
+  border: 1px solid #e9e4e4;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.html5 {
+  width: 200px;
+  background-color: lightcoral;
+  border: 1px solid #e9e4e4;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.html7 {
+  width: 200px;
+  background-color: lightgreen;
+  border: 1px solid #e9e4e4;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #e9e4e4;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 30px;
+  height: 400px;
+}
+
+
+.bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.progress-text {
+  margin-left: 10px;
+}
+
+
+.bar-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar-container {
+  margin-bottom: 10px;
+}
+

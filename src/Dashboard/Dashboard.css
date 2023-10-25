@@ -1,0 +1,25 @@
+.dashboard-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .element {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .element:hover{
+    cursor: pointer;
+    color: blue;
+    background-color:azure;
+  }
+  .icon {
+    margin-right: 5px; 
+  }
+  
+
+  
+  

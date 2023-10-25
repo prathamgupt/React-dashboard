@@ -1,0 +1,16 @@
+.parent{
+    border: 1px solid #e9e4e4; 
+    border-collapse: collapse; 
+    border-radius: 10px; 
+}
+
+.change{
+    padding-left: 8%;
+    padding-bottom: 20px;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+  
